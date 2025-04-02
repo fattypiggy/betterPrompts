@@ -24,12 +24,14 @@ var/
 
 # Results directory - generated outputs
 results/
+masks/
 
-# Images (optional - uncomment if you don't want to track sample images)
-# images/
+# Ignore all files in the masks directory
+masks/*
 
-# IDE
-.idea/
+# Ignore all files in the images directory
+images/
+
 .vscode/
 *.swp
 *.swo
